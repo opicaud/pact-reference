@@ -43,3 +43,5 @@ php/vendor/
 php/composer.lock
 
 pkg/
+
+rust/bazel-*

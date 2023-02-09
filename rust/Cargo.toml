@@ -15,4 +15,4 @@ exclude = [
 ]
 
 [patch.crates-io]
-onig = { git = "https://github.com/rust-onig/rust-onig", default-features = false }
+onig = { git = "https://github.com/rust-onig/rust-onig", default-features = false, branch = "main" }

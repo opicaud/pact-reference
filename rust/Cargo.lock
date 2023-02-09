@@ -505,6 +505,13 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "524cbf6897b527295dff137cec09ecf3a05f4fddffd7dfcd1585403449e74198"
 
 [[package]]
+name = "direct-cargo-bazel-deps"
+version = "0.0.1"
+dependencies = [
+ "os_info",
+]
+
+[[package]]
 name = "either"
 version = "1.8.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1436,7 +1443,7 @@ checksum = "6f61fba1741ea2b3d6a1e3178721804bb716a68a6aeba1149b5d52e3d464ea66"
 [[package]]
 name = "onig"
 version = "6.4.0"
-source = "git+https://github.com/rust-onig/rust-onig#76bc1d29651bd17c7d5ecea9266bd2e0e83cb2e0"
+source = "git+https://github.com/rust-onig/rust-onig?branch=main#76bc1d29651bd17c7d5ecea9266bd2e0e83cb2e0"
 dependencies = [
  "bitflags",
  "libc",
@@ -1447,7 +1454,7 @@ dependencies = [
 [[package]]
 name = "onig_sys"
 version = "69.8.1"
-source = "git+https://github.com/rust-onig/rust-onig#76bc1d29651bd17c7d5ecea9266bd2e0e83cb2e0"
+source = "git+https://github.com/rust-onig/rust-onig?branch=main#76bc1d29651bd17c7d5ecea9266bd2e0e83cb2e0"
 dependencies = [
  "cc",
  "pkg-config",
