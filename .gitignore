@@ -45,3 +45,4 @@ php/composer.lock
 pkg/
 
 rust/bazel-*
+rust/node_modules
