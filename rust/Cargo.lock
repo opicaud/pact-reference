@@ -1443,7 +1443,7 @@ checksum = "6f61fba1741ea2b3d6a1e3178721804bb716a68a6aeba1149b5d52e3d464ea66"
 [[package]]
 name = "onig"
 version = "6.4.0"
-source = "git+https://github.com/rust-onig/rust-onig?branch=main#76bc1d29651bd17c7d5ecea9266bd2e0e83cb2e0"
+source = "git+https://github.com/rust-onig/rust-onig?rev=fa90c0e97e90a056af89f183b23cd417b59ee6a2#fa90c0e97e90a056af89f183b23cd417b59ee6a2"
 dependencies = [
  "bitflags",
  "libc",
@@ -1454,7 +1454,7 @@ dependencies = [
 [[package]]
 name = "onig_sys"
 version = "69.8.1"
-source = "git+https://github.com/rust-onig/rust-onig?branch=main#76bc1d29651bd17c7d5ecea9266bd2e0e83cb2e0"
+source = "git+https://github.com/rust-onig/rust-onig?rev=fa90c0e97e90a056af89f183b23cd417b59ee6a2#fa90c0e97e90a056af89f183b23cd417b59ee6a2"
 dependencies = [
  "cc",
  "pkg-config",
